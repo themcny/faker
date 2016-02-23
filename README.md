@@ -72,6 +72,25 @@ Faker::Address.longitude #=> "-156.65548382095133"
 
 ```
 
+###Faker::BankAccount
+-----------------
+
+```ruby
+
+Faker::BankAccount.routing_number #=> "1291131673"
+
+Faker::BankAccount.routing_number(true) #=> "11-3167/1210"
+
+Faker::BankAccount.account_number #=> "0114584906"
+
+Faker::BankAccount.iban #=> "GR16 0110 1250 0000 0001 2300 695"
+
+Faker::BankAccount.swift #=> "ABWHAU21"
+
+Faker::BankAccount.institution_name #=> "National Australia Bank LTD"
+
+```
+
 ###Faker::Bitcoin
 -----------------
 
